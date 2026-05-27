@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    string topics[] = {"Sports", "Politics", "Business", "Technology", "Art"};
+
+    //your code goes here
+    int num;
+    cin >> num;
+    cout << topics[num];
+}

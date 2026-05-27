@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for(;n>=0;n--){
+    
+        
+        if(n==0)
+        cout << "=";
+        break;
+        }
+        cout << (n*(n+1))/2;
+        
+    
+    
+}
